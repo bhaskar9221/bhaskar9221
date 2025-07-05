@@ -1,4 +1,4 @@
-<h1 align="center">Hi there👋, I'm Bhaskar Kumar</h1>
+<h1 align="center">Hi there👋, I'm Bhaskar</h1>
 <h3 align="center">An aspiring Machine Learning Engineer</h3>
 
 - 📫 How to reach me **bhaskarkumar9221@gmail.com**
