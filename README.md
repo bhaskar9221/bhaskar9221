@@ -1,5 +1,5 @@
 <h1 align="center">Hi there👋, I'm Bhaskar Kumar</h1>
-<h3 align="center">An aspiring Machine Learning Engineer from India</h3>
+<h3 align="center">An aspiring Machine Learning Engineer</h3>
 
 - 📫 How to reach me **bhaskarkumar9221@gmail.com**
 
