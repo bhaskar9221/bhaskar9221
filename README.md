@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **AnimeGAN**
 
-- 🌱 I’m currently learning **R**
+- 🌱 I’m currently learning **ways and other concepts in AI Field to be used for Video Games**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
