@@ -27,10 +27,10 @@
 
 ```python
 bhaskar = {
-    "role":        "AI Engineer",
-    "location":    "Mumbai, India 🇮🇳",
+    "role":        "Machine Learning Engineer",
+    "location":    "Mumbai",
     "focus":       ["Applied ML/DL", "GenAI Pipelines", "MLOps", "Edge Deployment"],
-    "currently":   "Building BareMetalML — ML from scratch, no shortcuts",
+    "currently":   "Building AnimeGAN — GAN model from scratch that generates anime like images.",
     "kaggle":      "Top 2% finishes across multiple Playground Series",
     "philosophy":  "Understand the math. Ship the model. Repeat.",
 }
