@@ -36,7 +36,7 @@ bhaskar = {
 }
 ```
 
-- 🔭 Building **[BareMetalML](https://github.com/bhaskar9221/BareMetalML)** — a pure-NumPy ML library for first-principles understanding
+- 🔭 Building **[E2E House Prediction](https://github.com/bhaskar9221/ML_E2E)** — E2E ML App for House Price Prediction
 - 🤖 Ex-AI Engineer Intern @ **Arcitech AI** and **Ebizon Cloud**
 - 🏆 **Kaggle Top 2%** — consistently placed in the top bracket across tabular & LLM competitions
 - 📐 I care deeply about *why* models work, not just *that* they work
