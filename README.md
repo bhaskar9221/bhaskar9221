@@ -2,7 +2,7 @@
 
 **Machine & Deep Learning Engineer**
 
-[Email](mailto:bhaskarmondal7221@gmail.com) · [LinkedIn](https://linkedin.com/in/bhaskar9221) · [Kaggle](https://kaggle.com/bhaskarkumar11) 
+[Email](mailto:bhaskarkumar9221@gmail.com) · [LinkedIn](https://linkedin.com/in/bhaskar9221) · [Kaggle](https://kaggle.com/bhaskarkumar11) 
 
 <!--
   When your site or Google Scholar profile is live, add them here:
@@ -116,4 +116,4 @@ Grouped by what the tool is for, not by logo. The work on this page was built wi
 
 ---
 
-<sub>[bhaskarmondal7221@gmail.com](mailto:bhaskarmondal7221@gmail.com) </sub>
+<sub>[bhaskarmondal7221@gmail.com](mailto:bhaskarkumar9221@gmail.com) </sub>
