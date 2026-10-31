@@ -1,60 +1,51 @@
-<table>
-<tr>
-<td width="232" valign="top">
-  <!-- Logo slot: replace the image below with your own logo (PNG or SVG) whenever you're ready. -->
-  <img src="assets/avatar.svg" width="232" alt="Reserved logo slot">
-</td>
-<td valign="top">
-
 # Bhaskar Mondal
 
-**Machine & Deep Learning Engineer** · from-scratch implementations, LLM systems, and the evaluation that keeps them honest.
+**Machine & Deep Learning Engineer** · first principles, evaluation, and the systems that ship them.
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:bhaskarmondal7221@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhaskar9221)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/bhaskarkumar11)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/bhaskar9221)
+I work at the level of the algorithm, not just the API. That means deriving the math before using it, reimplementing the core methods in NumPy to confirm I understand them, and measuring a model against baselines before trusting it. I am most interested in deep learning, generative models, and evaluating models honestly. I want to do work where the question is at least as interesting as the demo.
 
-`●` Open to ML / DL roles · Currently building AnimeGAN from scratch
+[Email](mailto:bhaskarmondal7221@gmail.com) · [LinkedIn](https://linkedin.com/in/bhaskar9221) · [Kaggle](https://kaggle.com/bhaskarkumar11) · [LeetCode](https://leetcode.com/bhaskar9221) · **Open to ML research and engineering roles**
 
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-map-dark.svg">
+  <img src="assets/research-map.svg" alt="A five-stage research workflow: first principles, from scratch, evaluation, generative models, and systems, with an iteration loop from evaluation back to rebuilding." width="100%">
+</picture>
 
-I build models from the math up, then ship them. My work sits where research meets production: a CNN trained from scratch and deployed under 50 MB, a RAG system benchmarked against five LLMs, and a NumPy-only ML library that reimplements the algorithms I use.
+---
 
-<img src="assets/sheet.svg" width="100%" alt="Character sheet: deep learning 9/10, first principles 10/10, estimated capability 8/10">
+### Research interests
 
-<img src="assets/divider.svg" width="100%" alt="">
+Deep learning and representation learning · generative models · optimization from first principles · evaluation and benchmarking · efficient inference
 
-## 🧩 Selected Work
+---
 
-<!--
-  HOW TO EDIT: each project is one row. Change the name, the stack, the summary,
-  and the links. Copy a row to add a project; delete a row to remove one.
--->
+### Selected work
 
-| Project | Stack | What it is |
-|:--|:--|:--|
-| **[BareMetalML](https://github.com/bhaskar9221/BareMetalML)** | Python · NumPy | Linear and logistic regression, decision trees, and Random Forest (in progress), written from scratch with no scikit-learn, plus my own scalers, splits, and metrics. |
-| **CNN Speech Emotion Recognition** | PyTorch · Audio | Trained from scratch on RAVDESS, TESS, CREMA-D, and SAVEE: ~88% accuracy across 7 classes, under 50 MB, edge-deployable. |
-| **RAG with Hallucination Checks** | LangChain · FAISS · OpenRouter | Retrieval over Oracle Cloud docs, benchmarked across 5+ LLMs on an 80–100 question set, with confidence scoring and citation verification. |
-| **AnimeGAN** | PyTorch · GANs | A GAN built from scratch to generate anime-style images. *In progress.* |
+**[BareMetalML](https://github.com/bhaskar9221/BareMetalML)** · Python, NumPy · *in progress*
+Reimplementing core ML algorithms from scratch to verify the math, not just use it. Linear regression (normal equation, SGD, Ridge), logistic regression (binary cross-entropy, one-vs-rest), decision trees (Gini and entropy splits), and Random Forest (bagging). Includes my own train/test split, scalers, and metrics.
 
-<img src="assets/divider.svg" width="100%" alt="">
+**Speech emotion recognition** · PyTorch · Arcitech AI
+A CNN trained from scratch across four benchmark datasets (RAVDESS, TESS, CREMA-D, SAVEE). Reached ~88% accuracy over 7 classes in under 50 MB, sized for edge deployment.
 
-## 🧪 Experience
+**RAG with hallucination mitigation** · LangChain, FAISS · Ebizon Cloud
+A retrieval pipeline over Oracle Cloud documentation. Benchmarked five LLMs on an 80–100 question set, then built confidence scoring, citation verification, and answer cross-checking to reduce unsupported output.
 
-**AI Engineer Intern · Arcitech AI** · `Jul – Dec 2025`
-- Trained a speech-emotion CNN from scratch and shipped it as part of a production audio pipeline handling 100–150 calls per run.
-- Built the FastAPI microservice behind it: transcription, NER, PII redaction, emotion scoring, and a 12-KPI analytics engine.
-- Benchmarked Whisper against AssemblyAI on noisy call audio and moved the pipeline to the winner.
+**AnimeGAN** · PyTorch · *in progress*
+A GAN built from scratch to study image-to-image translation and what the generator actually learns.
 
-**AI Engineer Intern · Ebizon Cloud** · `Mar – May 2025`
-- Built a RAG pipeline over Oracle Cloud documentation with FAISS retrieval and source-linked answers.
-- Benchmarked 5+ LLMs against an evaluation set and built a hallucination-mitigation framework on top of the results.
+---
 
-## 🏅 Signals
+### Experience
+
+**AI Engineer Intern** · Arcitech AI · `Jul – Dec 2025`
+Trained the speech-emotion CNN and shipped the production pipeline around it: transcription, NER, PII redaction, emotion scoring, and a 12-KPI analytics engine, served through FastAPI for 100–150 calls per run. Benchmarked Whisper against AssemblyAI on noisy audio and moved to the model that won.
+
+**AI Engineer Intern** · Ebizon Cloud · `Mar – May 2025`
+Built the RAG pipeline above, including the LLM benchmark and the hallucination-mitigation framework. Refined chunking, retrieval, and prompting against the evaluation set instead of by intuition.
+
+---
+
+### Benchmarks and evaluation
 
 | Kaggle | Result | Field |
 |:--|:--:|:--|
@@ -63,18 +54,20 @@ I build models from the math up, then ship them. My work sits where research mee
 | Calorie Expenditure Prediction | **150 / 4,316** · top 4% | Tabular regression |
 | [LLM 20 Questions](https://www.kaggle.com/competitions/llm-20-questions) | 832 teams | LLM agent |
 
-I treat evaluation as the actual work: benchmarking models instead of trusting them, and measuring claims before putting them on a page.
+I treat evaluation as part of the research, not a final checkbox: benchmark against baselines, report where the model fails, and only then claim a result.
 
-## 🛠️ Stack
+---
 
-**Deep learning:** PyTorch · TensorFlow · Keras
-**Classical ML:** scikit-learn · XGBoost · LightGBM · CatBoost
-**GenAI:** LangChain · Hugging Face · OpenAI · OpenRouter · FAISS · RAG
-**MLOps:** FastAPI · Docker · MLflow · GCP · AWS · Git · Streamlit · Gradio
-**Languages:** Python · SQL (MySQL, PostgreSQL) · C/C++ (basic)
+### Toolbox
 
-<img src="assets/divider.svg" width="100%" alt="">
+Python · PyTorch · TensorFlow · Keras · NumPy · scikit-learn · XGBoost · LightGBM · CatBoost
 
-**Open to machine and deep learning roles.** Reach me at [bhaskarmondal7221@gmail.com](mailto:bhaskarmondal7221@gmail.com) or on [LinkedIn](https://linkedin.com/in/bhaskar9221).
+LangChain · Hugging Face · OpenAI · OpenRouter · FAISS · RAG · prompt engineering
 
-<img src="assets/footer.svg" width="100%" alt="Press start. Derive it. Train it. Ship it.">
+FastAPI · Docker · MLflow · GCP · AWS · Git · Streamlit · Gradio
+
+SQL (MySQL, PostgreSQL) · C/C++ (basic)
+
+---
+
+<sub>Open to machine learning research and engineering work. [bhaskarmondal7221@gmail.com](mailto:bhaskarmondal7221@gmail.com)</sub>
