@@ -1,131 +1,80 @@
-<div align="center">
+<table>
+<tr>
+<td width="232" valign="top">
+  <!-- Logo slot: replace the image below with your own logo (PNG or SVG) whenever you're ready. -->
+  <img src="assets/avatar.svg" width="232" alt="Reserved logo slot">
+</td>
+<td valign="top">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner_light.svg">
-  <img src="assets/banner.svg" alt="Bhaskar Mondal — Machine & Deep Learning Engineer. I don't call the library until I've built the algorithm." width="100%">
-</picture>
+# Bhaskar Mondal
 
-<a href="mailto:bhaskarmondal7221@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://linkedin.com/in/bhaskar9221"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://kaggle.com/bhaskarkumar11"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"></a>
-<a href="https://leetcode.com/bhaskar9221"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+**Machine & Deep Learning Engineer** · from-scratch implementations, LLM systems, and the evaluation that keeps them honest.
 
-</div>
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:bhaskarmondal7221@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhaskar9221)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/bhaskarkumar11)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/bhaskar9221)
 
-I build models from the math up and ship them into production: deep learning, LLM systems, and the MLOps around them. Evaluation is the part I care about most; it's where the real work happens.
+`●` Open to ML / DL roles · Currently building AnimeGAN from scratch
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider_light.svg">
-  <img src="assets/divider.svg" alt="" width="100%">
-</picture>
+</td>
+</tr>
+</table>
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats_light.svg">
-  <img src="assets/stats.svg" alt="Player stats: machine and deep learning, first principles, Kaggle top 2% twice, current quest AnimeGAN." width="100%">
-</picture>
-</div>
+I build models from the math up, then ship them. My work sits where research meets production: a CNN trained from scratch and deployed under 50 MB, a RAG system benchmarked against five LLMs, and a NumPy-only ML library that reimplements the algorithms I use.
 
-## 🎮 Quest Log
+<img src="assets/sheet.svg" width="100%" alt="Character sheet: deep learning 9/10, first principles 10/10, estimated capability 8/10">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/quests.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/quests_light.svg">
-  <img src="assets/quests.svg" alt="Quest log: BareMetalML linear and logistic regression done, speech emotion model done, RAG with hallucination checks done; BareMetalML random forest and AnimeGAN active." width="100%">
-</picture>
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🔩 Featured Build: BareMetalML
+## 🧩 Selected Work
 
-*An ML library written from scratch with only NumPy. No scikit-learn, no shortcuts.*
+<!--
+  HOW TO EDIT: each project is one row. Change the name, the stack, the summary,
+  and the links. Copy a row to add a project; delete a row to remove one.
+-->
 
-- **Linear Regression:** the normal equation, batch and SGD, Ridge (L2) regularization
-- **Logistic Regression:** sigmoid, binary cross-entropy, one-vs-rest multiclass
-- **Decision Trees:** Gini and entropy splits, decision boundary visualization
-- **Random Forest:** bootstrap aggregation, in progress
-- **Tooling:** my own train/test split, scalers, and MSE/R² metrics
+| Project | Stack | What it is |
+|:--|:--|:--|
+| **[BareMetalML](https://github.com/bhaskar9221/BareMetalML)** | Python · NumPy | Linear and logistic regression, decision trees, and Random Forest (in progress), written from scratch with no scikit-learn, plus my own scalers, splits, and metrics. |
+| **CNN Speech Emotion Recognition** | PyTorch · Audio | Trained from scratch on RAVDESS, TESS, CREMA-D, and SAVEE: ~88% accuracy across 7 classes, under 50 MB, edge-deployable. |
+| **RAG with Hallucination Checks** | LangChain · FAISS · OpenRouter | Retrieval over Oracle Cloud docs, benchmarked across 5+ LLMs on an 80–100 question set, with confidence scoring and citation verification. |
+| **AnimeGAN** | PyTorch · GANs | A GAN built from scratch to generate anime-style images. *In progress.* |
 
-`Python` · `NumPy` · `Pandas` · `Matplotlib`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider_light.svg">
-  <img src="assets/divider.svg" alt="" width="100%">
-</picture>
-
-## 🏆 Achievements
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/achievements.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/achievements_light.svg">
-  <img src="assets/achievements.svg" alt="Three Kaggle achievements: Academic Success Classification 47 of 2,684 (top 2%), Irrigation Need Prediction 86 of 4,315 (top 2%), Calorie Expenditure Prediction 150 of 4,316 (top 4%)." width="100%">
-</picture>
-
-| Competition | Result | Field |
-|:---|:---:|:---|
-| Academic Success Classification | **47 / 2,684** · top 2% | Tabular classification |
-| Irrigation Need Prediction | **86 / 4,315** · top 2% | Tabular classification |
-| Calorie Expenditure Prediction | **150 / 4,316** · top 4% | Tabular regression |
-
-## ⚔️ Boss Battles
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/boss.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/boss_light.svg">
-  <img src="assets/boss.svg" alt="Boss battle: LLM 20 Questions, a featured Kaggle competition with 832 teams." width="100%">
-</picture>
-
-[LLM 20 Questions](https://www.kaggle.com/competitions/llm-20-questions), a featured Kaggle competition with 832 teams. I built an LLM agent informed by published research on question-asking and information elimination.
-
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 🧪 Experience
 
 **AI Engineer Intern · Arcitech AI** · `Jul – Dec 2025`
-- Built a CNN speech-emotion model from scratch: ~88% accuracy across 7 classes, under 50 MB, edge-deployable
-- Shipped a production FastAPI service that transcribes calls, runs NER and PII redaction, scores voice intensity, and computes 12 KPIs
-- Benchmarked Whisper against AssemblyAI on noisy call audio and moved the pipeline to the winner
+- Trained a speech-emotion CNN from scratch and shipped it as part of a production audio pipeline handling 100–150 calls per run.
+- Built the FastAPI microservice behind it: transcription, NER, PII redaction, emotion scoring, and a 12-KPI analytics engine.
+- Benchmarked Whisper against AssemblyAI on noisy call audio and moved the pipeline to the winner.
 
 **AI Engineer Intern · Ebizon Cloud** · `Mar – May 2025`
-- Built a RAG pipeline over Oracle Cloud documentation with FAISS retrieval and source-linked answers
-- Benchmarked 5+ LLMs on an 80–100 question evaluation set (OpenRouter) and built a hallucination-mitigation framework: confidence scoring, citation verification, answer cross-checking
+- Built a RAG pipeline over Oracle Cloud documentation with FAISS retrieval and source-linked answers.
+- Benchmarked 5+ LLMs against an evaluation set and built a hallucination-mitigation framework on top of the results.
 
-## 🛠️ Inventory
+## 🏅 Signals
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/loadout.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/loadout_light.svg">
-  <img src="assets/loadout.svg" alt="Skills grouped by category: languages, deep learning, classical ML, GenAI, MLOps, interfaces." width="100%">
-</picture>
+| Kaggle | Result | Field |
+|:--|:--:|:--|
+| Academic Success Classification | **47 / 2,684** · top 2% | Tabular classification |
+| Irrigation Need Prediction | **86 / 4,315** · top 2% | Tabular classification |
+| Calorie Expenditure Prediction | **150 / 4,316** · top 4% | Tabular regression |
+| [LLM 20 Questions](https://www.kaggle.com/competitions/llm-20-questions) | 832 teams | LLM agent |
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/divider_light.svg">
-  <img src="assets/divider.svg" alt="" width="100%">
-</picture>
+I treat evaluation as the actual work: benchmarking models instead of trusting them, and measuring claims before putting them on a page.
 
-## 📊 Stats
+## 🛠️ Stack
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bhaskar9221&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats">
-  &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhaskar9221&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages">
-</div>
+**Deep learning:** PyTorch · TensorFlow · Keras
+**Classical ML:** scikit-learn · XGBoost · LightGBM · CatBoost
+**GenAI:** LangChain · Hugging Face · OpenAI · OpenRouter · FAISS · RAG
+**MLOps:** FastAPI · Docker · MLflow · GCP · AWS · Git · Streamlit · Gradio
+**Languages:** Python · SQL (MySQL, PostgreSQL) · C/C++ (basic)
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=bhaskar9221&theme=tokyonight&hide_border=true" alt="Contribution streak">
-</div>
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 📬 Continue?
+**Open to machine and deep learning roles.** Reach me at [bhaskarmondal7221@gmail.com](mailto:bhaskarmondal7221@gmail.com) or on [LinkedIn](https://linkedin.com/in/bhaskar9221).
 
-Open to machine and deep learning roles. Email me, or find me on [LinkedIn](https://linkedin.com/in/bhaskar9221) and [Kaggle](https://kaggle.com/bhaskarkumar11).
-
-<div align="center"><br>
-
-`▓▒░ PRESS START ░▒▓`
-
-<sub><i>Derive it. Train it. Ship it.</i></sub>
-
-</div>
+<img src="assets/footer.svg" width="100%" alt="Press start. Derive it. Train it. Ship it.">
