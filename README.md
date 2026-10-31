@@ -28,7 +28,7 @@ Deep learning and representation learning · generative models · optimization f
 
 ---
 
-### Selected work
+### My work
 
 **BareMetalML** · Python, NumPy · [repository](https://github.com/bhaskar9221/BareMetalML)
 *Question:* how much does building an algorithm yourself actually teach you about it?
@@ -51,14 +51,14 @@ Deep learning and representation learning · generative models · optimization f
 
 ---
 
-### Open questions
+### Research questions
 
-The problems I am currently circling. Each has a method attached.
+Four problems I keep returning to. They are open on purpose: each one is worth a paper, and each one has a concrete first experiment.
 
-- **How much does behavioral verification prove?** BareMetalML matches sklearn numerically, but that is not the same as understanding the failure modes. Next: stress the implementations on degenerate inputs and sparse regimes, and compare where they break.
-- **Do tree ensembles degrade gracefully or collapse?** Train Random Forest under controlled label noise and track when the ensemble stops beating a single tree.
-- **What does the generator actually encode?** Probe AnimeGAN's latent space for content-versus-style separation instead of judging only by samples.
-- **Can evaluation be cheap and honest?** Small, well-constructed question sets against larger ones, to see how much evaluation you can do without a huge budget.
+- **What does numerical agreement actually prove?** Two implementations can match to 1e-10 and still fail differently. BareMetalML verifies against sklearn on the same data; the harder question is whether they agree on *how* they fail: degenerate inputs, sparse regimes, and the boundaries where each implementation gives up.
+- **When does an ensemble stop being worth it?** Random Forest almost always beats a single tree on clean data. The interesting regime is label noise: how much corruption before the ensemble's advantage disappears, and whether it degrades gracefully or collapses.
+- **What does a generator actually encode?** Samples only show what a model produces, not what it represents. The question is whether AnimeGAN's latent space separates content from style, and how to probe that without relying on human eyes.
+- **How small can an evaluation be and still be predictive?** Large benchmarks are expensive and often noisy. The question is which small, well-chosen sets preserve the rankings of the full benchmark, and where they mislead.
 
 ---
 
