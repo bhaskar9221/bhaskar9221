@@ -116,4 +116,4 @@ Grouped by what the tool is for, not by logo. The work on this page was built wi
 
 ---
 
-<sub>[bhaskarmondal7221@gmail.com](mailto:bhaskarmondal7221@gmail.com) · Open to machine learning research and engineering work.</sub>
+<sub>[bhaskarmondal7221@gmail.com](mailto:bhaskarmondal7221@gmail.com) </sub>
