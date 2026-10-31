@@ -96,13 +96,23 @@ Built the RAG pipeline and its evaluation, including the five-model benchmark an
 
 ### Toolbox
 
-Python · PyTorch · TensorFlow · Keras · NumPy · scikit-learn · XGBoost · LightGBM · CatBoost
+Grouped by what the tool is for, not by logo. The work on this page was built with the first three groups; the rest is the surrounding research infrastructure I use or am building out.
 
-LangChain · Hugging Face · OpenAI · OpenRouter · FAISS · RAG · prompt engineering
+**Core** — PyTorch · TensorFlow · Keras · NumPy · scikit-learn · XGBoost · LightGBM · CatBoost
 
-FastAPI · Docker · MLflow · GCP · AWS · Git · Streamlit · Gradio
+**Generative and retrieval** — Hugging Face · LangChain · OpenAI · OpenRouter · FAISS · RAG pipelines · prompt engineering
 
-SQL (MySQL, PostgreSQL) · C/C++ (basic)
+**Experimentation and evaluation** — MLflow · Weights & Biases · TensorBoard · Optuna · custom eval sets
+
+**Serving and inference** — FastAPI · vLLM · ONNX · quantization · batching · Streamlit · Gradio
+
+**Scale and automation** — Ray · Airflow · Docker · Kubernetes · GCP · AWS
+
+**Data work** — pandas · Polars · DuckDB · scikit-learn pipelines · feature engineering and validation
+
+**Engineering hygiene** — Git · GitHub Actions · pytest · packaging · reproducible environments
+
+**Languages** — Python (primary) · SQL (MySQL, PostgreSQL) · C/C++ (working knowledge)
 
 ---
 
