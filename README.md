@@ -2,7 +2,7 @@
 
 **Machine & Deep Learning Engineer**
 
-[Email](mailto:bhaskarmondal7221@gmail.com) · [LinkedIn](https://linkedin.com/in/bhaskar9221) · [Kaggle](https://kaggle.com/bhaskarkumar11) · Open to ML research, research engineering, and ML engineering roles
+[Email](mailto:bhaskarmondal7221@gmail.com) · [LinkedIn](https://linkedin.com/in/bhaskar9221) · [Kaggle](https://kaggle.com/bhaskarkumar11) 
 
 <!--
   When your site or Google Scholar profile is live, add them here:
